@@ -1,0 +1,923 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-1 {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(1, 3, 27, 0.909);
+    z-index: 1;
+}
+
+.header-1 .logo {
+    display: inline-block;
+    position: fixed;
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-1 .logo .fa-square-n {
+    margin-top: 3px;
+}
+
+.header-1 nav {
+    display: flex;
+    margin-top: 18px;
+    float: right;
+    margin-right: 250px;
+}
+
+.header-1 nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.header-1 nav ul li a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+}
+
+.header-1 .inputs {
+    display: inline-block;
+    position: fixed;
+    margin-left: 990px;
+    width: 250px;
+    height: 70px;
+}
+
+.header-1 .inputs .languages {
+    display: inline-block;
+    position: fixed;
+    border: none;
+    padding: 7px 10px 7px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-left: 25px;
+}
+
+.header-1 .inputs .btn-sign {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding: 7px 10px 7px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-left: 150px;
+}
+
+.middle-body-1 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 85vh;
+    margin-top: 81px;
+    background: url(background5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.middle-body-1 .first-one {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.middle-body-1 .second-one {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.middle-body-1 .search {
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 10px 150px 10px 10px;
+    border: none;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(30, 29, 29);
+}
+
+.middle-body-1 .btn-search {
+    display: inline-block;
+    position: absolute;
+    padding: 10px 15px 10px 7px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 470px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.middle-body-2 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 190vh;
+    background-color: rgba(1, 3, 31, 0.931);
+    margin-top: 580px;
+}
+
+.middle-body-2 .site-parts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 190vh;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.middle-body-2 .site-parts .part-one {
+    width: 100%;
+    height: 250px;
+}
+
+.middle-body-2 .site-parts .part-one .written-1 {
+    display: inline-block;
+    width: 380px;
+    height: 180px;
+    vertical-align: top;
+    margin-top: 35px;
+    margin-left: 150px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+.middle-body-2 .site-parts .part-one .big-image-1 {
+    display: inline-block;
+    width: 280px;
+    height: 180px;
+    margin-left: 250px;
+    vertical-align: top;
+    margin-top: 35px;
+    background: url(television.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.middle-body-2 .site-parts .part-two {
+    width: 100%;
+    height: 250px;
+}
+
+.middle-body-2 .site-parts .part-two .big-image-2 {
+    display: inline-block;
+    width: 280px;
+    height: 180px;
+    vertical-align: top;
+    margin-top: 35px;
+    margin-left: 150px;
+    background: url(stream.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.middle-body-2 .site-parts .part-two .written-2 {
+    display: inline-block;
+    width: 380px;
+    height: 180px;
+    vertical-align: top;
+    margin-top: 35px;
+    margin-left: 250px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+.middle-body-2 .site-parts .part-three {
+    width: 100%;
+    height: 250px;
+}
+
+.middle-body-2 .site-parts .part-three .written-3 {
+    display: inline-block;
+    width: 380px;
+    height: 180px;
+    vertical-align: top;
+    margin-top: 35px;
+    margin-left: 150px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+.middle-body-2 .site-parts .part-three .big-image-3 {
+    display: inline-block;
+    width: 280px;
+    height: 180px;
+    margin-left: 250px;
+    vertical-align: top;
+    margin-top: 35px;
+    background: url(kids.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.middle-body-2 .site-parts .part-four {
+    width: 100%;
+    height: 250px;
+}
+
+.middle-body-2 .site-parts .part-four .big-image-4 {
+    display: inline-block;
+    width: 280px;
+    height: 180px;
+    vertical-align: top;
+    margin-top: 35px;
+    margin-left: 150px;
+    background: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.middle-body-2 .site-parts .part-four .written-4 {
+    display: inline-block;
+    width: 380px;
+    height: 180px;
+    vertical-align: top;
+    margin-top: 35px;
+    margin-left: 250px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+.middle-body-3 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: rgba(1, 3, 31, 0.931);
+    margin-top: 1696px;
+}
+
+.middle-body-3 .title-box-office {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.middle-body-3 .movies-parts {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(1, 3, 31, 0.931);
+    width: 100%;
+    height: 245px;
+}
+
+.middle-body-3 .movies-parts .movie-1 {
+    width: 200px;
+    height: 150px;
+    background: url(movie10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.middle-body-3 .movies-parts .movie-1 .rates-1 .fa-star {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-top: 153px;
+    margin-left: 10px;
+}
+
+.middle-body-3 .movies-parts .movie-2 {
+    width: 200px;
+    height: 150px;
+    background: url(movie6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.middle-body-3 .movies-parts .movie-2 .rates-2 .fa-sharp {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-top: 153px;
+    margin-left: 10px;
+}
+
+.middle-body-3 .movies-parts .movie-3 {
+    width: 200px;
+    height: 150px;
+    background: url(movie8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.middle-body-3 .movies-parts .movie-3 .rates-3 .fa-sharp {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-top: 153px;
+    margin-left: 10px;
+}
+
+.middle-body-3 .movies-parts .movie-4 {
+    width: 200px;
+    height: 150px;
+    background: url(movie9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.middle-body-3 .movies-parts .movie-4 .rates-4 .fa-star {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-top: 153px;
+    margin-left: 10px;
+}
+
+.middle-body-3 .movies-parts .movie-5 {
+    width: 200px;
+    height: 150px;
+    background: url(movie14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.middle-body-3 .movies-parts .movie-5 .rates-5 .fa-star {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-top: 153px;
+    margin-left: 10px;
+}
+
+.middle-body-3 .movies-parts .movie-6 {
+    width: 200px;
+    height: 150px;
+    background: url(movie3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.middle-body-3 .movies-parts .movie-6 .rates-6 .fa-sharp {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-top: 153px;
+    margin-left: 10px;
+}
+
+.middle-body-4 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    margin-top: 1995px;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.middle-body-4 .p-licenses {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.middle-body-4 .info-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 62vh;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.middle-body-4 .info-cards .card-1 {
+    width: 230px;
+    height: 320px;
+    background-color: rgba(1, 3, 31, 0.931);
+    transition: all 2s;
+    border-radius: 15px;
+}
+
+.middle-body-4 .info-cards .card-1:hover {
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px rgb(250, 242, 242);
+}
+
+.middle-body-4 .info-cards .card-1 .info-1 {
+    width: 230px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+}
+
+.middle-body-4 .info-cards .card-1 .info-1 .num-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 252, 252);
+    margin-left: 25px;
+}
+
+.middle-body-4 .info-cards .card-1 .typing-1 {
+    width: 230px;
+    height: 150px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.middle-body-4 .info-cards .card-1 .btn-sign-1 {
+    background-color: rgb(255, 255, 255);
+    color: rgba(1, 3, 31, 0.931);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 10px 7px 10px;
+    border-radius: 16px;
+    border: none;
+    margin-left: 70px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.middle-body-4 .info-cards .card-2 {
+    width: 230px;
+    height: 320px;
+    background-color: rgba(1, 3, 31, 0.931);
+    border-radius: 15px;
+    transition: all 2s;
+}
+
+.middle-body-4 .info-cards .card-2:hover {
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px rgb(250, 242, 242);
+}
+
+.middle-body-4 .info-cards .card-2 .info-2 {
+    width: 230px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+}
+
+.middle-body-4 .info-cards .card-2 .info-2 .num-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+}
+
+.middle-body-4 .info-cards .card-2 .typing-2 {
+    width: 230px;
+    height: 150px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.middle-body-4 .info-cards .card-2 .btn-sign-2 {
+    background-color: white;
+    color: rgba(1, 3, 31, 0.931);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 10px 7px 10px;
+    border-radius: 16px;
+    border: none;
+    margin-left: 70px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.middle-body-4 .info-cards .card-3 {
+    width: 230px;
+    height: 320px;
+    background-color: rgba(1, 3, 31, 0.931);
+    border-radius: 15px;
+    transition: all 2s;
+}
+
+.middle-body-4 .info-cards .card-3:hover {
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px rgb(250, 242, 242);
+}
+
+.middle-body-4 .info-cards .card-3 .info-3 {
+    width: 230px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+}
+
+.middle-body-4 .info-cards .card-3 .info-3 .num-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+}
+
+.middle-body-4 .info-cards .card-3 .typing-3 {
+    width: 230px;
+    height: 150px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.middle-body-4 .info-cards .card-3 .btn-sign-3 {
+    background-color: white;
+    color: rgba(1, 3, 31, 0.931);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 10px 7px 10px;
+    border-radius: 16px;
+    border: none;
+    margin-left: 70px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.middle-body-5 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(1, 3, 31, 0.931);
+    margin-top: 2405px;
+}
+
+.middle-body-5 .p-trailers {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.middle-body-5 .trailers-parts {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.middle-body-5 .trailers-parts .p-video {
+    display: inline-block;
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.middle-body-5 .trailers-parts .video-part {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-left: 750px;
+    cursor: pointer;
+}
+
+.middle-body-6 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-top: 2800px;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.middle-body-6 .features-part {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.middle-body-6 .features-part .p-features {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+    padding: 100px 0px 0px 100px;
+}
+
+.middle-body-6 .features-part .btn-playstore {
+    background-color: white;
+    color: rgba(1, 3, 31, 0.931);
+    padding: 12px 20px 12px 20px;
+    border-radius: 7px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0px 0px 100px;
+    cursor: pointer;
+}
+
+.middle-body-6 .features-part .btn-macos {
+    background-color: white;
+    color: rgba(1, 3, 31, 0.931);
+    padding: 12px 20px 12px 20px;
+    border-radius: 7px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0px 0px 50px;
+    cursor: pointer;
+}
+
+.footer {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    margin-top: 3100px;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.footer .footer-parts {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(1, 3, 31, 0.931);
+}
+
+.footer .footer-parts .p-contactus {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.footer .footer-parts .module-1 {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer .footer-parts .module-1 .p-release {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer .footer-parts .module-1 ul li {
+    padding: 7px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer .footer-parts .module-2 {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+.footer .footer-parts .module-2 .p-branches {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer .footer-parts .module-2 ul li {
+    padding: 7px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer .footer-parts .module-3 {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+
+.footer .footer-parts .module-3 .p-addresses {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer .footer-parts .module-3 ul li {
+    padding: 7px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer .footer-parts .module-4 {
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    margin-left: 770px;
+    margin-top: 20px;
+}
+
+.footer .footer-parts .module-4 .p-brands {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer .footer-parts .module-4 .fa-brands {
+    margin-top: 15px;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+.footer .footer-parts .module-4 input {
+    padding: 12px 30px 12px 7px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+
+.footer .footer-parts .module-4 .btn-submit {
+    background-color: rgb(97, 97, 97);
+    color: rgba(255, 255, 255, 0.931);
+    padding: 12px 18px 12px 12px;
+    border-radius: 25px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer .footer-parts .module-4 .p-also {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer .footer-parts .module-4 .fa-brands {
+    margin-top: 15px;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+.footer .footer-parts .p-copy {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 335px;
+    text-align: center;
+}
